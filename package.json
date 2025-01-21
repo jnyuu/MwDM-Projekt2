@@ -1,14 +1,20 @@
 {
-  "name": "img-to-text",
+  "name": "ocr-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@chatscope/chat-ui-kit-react": "github:chatscope/chat-ui-kit-react",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.2.0",
+    "react-advanced-cropper": "^0.19.4",
+    "react-cropper": "^2.3.3",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.12.0",
+    "react-image-crop": "^10.1.8",
     "react-scripts": "5.0.1",
+    "tesseract.js": "^5.0.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
